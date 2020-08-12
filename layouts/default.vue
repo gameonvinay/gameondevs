@@ -22,6 +22,31 @@
       </nav>
     </header>
     <nuxt />
+    <footer class="footer-section">
+      <section class="footer-section-social-media">
+        Social Media Links Social Media Links Social Media Links Social Media
+        Links Social Media Links
+      </section>
+      <section class="footer-section-website-type">
+        Website Types Website Types Website Types Website Types Website Types
+      </section>
+      <section class="footer-section-tech-stack">
+        Technology Stack Technology Stack Technology Stack Technology Stack
+        Technology Stack
+      </section>
+      <section class="footer-section-misc-links">
+        Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy
+        Policy Privacy Policy
+      </section>
+      <section class="footer-section-copyright">
+        <div>
+          Copyright &copy; 2020 Game On Developers.
+        </div>
+        <div>
+          All right reserved.
+        </div>
+      </section>
+    </footer>
   </div>
 </template>
 <script>

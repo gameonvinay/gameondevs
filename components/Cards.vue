@@ -1,5 +1,125 @@
 <template>
-  <section></section>
+  <section class="cards-container">
+    <h1 class="heading-cards-section">Projects</h1>
+    <div class="cards-section">
+      <div class="card">
+        <div class="card-image">
+          <img src="@/assets/img/food-card.webp" alt="" />
+        </div>
+        <div class="card-text">
+          <span class="card-date">4 days ago</span>
+          <h2>fooduandi</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetu r adipisicing elit. Tempore
+            ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
+            cupiditate molestiae praesentium aspernatur laudantium dicta sint
+            nihil maxime error, aperia m deleniti?
+          </p>
+        </div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="value">4M</div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat">
+            <div class="value">5123</div>
+            <div class="type">views</div>
+          </div>
+          <div class="stat">
+            <div class="value">32</div>
+            <div class="type">comments</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="@/assets/img/dance-card.webp" alt="" />
+        </div>
+        <div class="card-text">
+          <span class="card-date">4 days ago</span>
+          <h2>Dance Academy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetu r adipisicing elit. Tempore
+            ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
+            cupiditate molestiae praesentium aspernatur laudantium dicta sint
+            nihil maxime error, aperia m deleniti?
+          </p>
+        </div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="value">4M</div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat">
+            <div class="value">5123</div>
+            <div class="type">views</div>
+          </div>
+          <div class="stat">
+            <div class="value">32</div>
+            <div class="type">comments</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="@/assets/img/photographer-card.webp" alt="" />
+        </div>
+        <div class="card-text">
+          <span class="card-date">4 days ago</span>
+          <h2>Photography</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetu r adipisicing elit. Tempore
+            ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
+            cupiditate molestiae praesentium aspernatur laudantium dicta sint
+            nihil maxime error, aperia m deleniti?
+          </p>
+        </div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="value">4M</div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat">
+            <div class="value">5123</div>
+            <div class="type">views</div>
+          </div>
+          <div class="stat">
+            <div class="value">32</div>
+            <div class="type">comments</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="@/assets/img/fitness-card.webp" alt="" />
+        </div>
+        <div class="card-text">
+          <span class="card-date">4 days ago</span>
+          <h2>THE GYM</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
+            cupiditate molestiae praesentium aspernatur laudantium dicta sint
+            nihil maxime error, aperiam deleniti?
+          </p>
+        </div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="value">4M</div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat">
+            <div class="value">5123</div>
+            <div class="type">views</div>
+          </div>
+          <div class="stat">
+            <div class="value">32</div>
+            <div class="type">comments</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
