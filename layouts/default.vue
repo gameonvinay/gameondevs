@@ -24,19 +24,36 @@
     <nuxt />
     <footer class="footer-section">
       <section class="footer-section-social-media">
-        Social Media Links Social Media Links Social Media Links Social Media
-        Links Social Media Links
+        <h2>Features</h2>
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Discord</a>
       </section>
       <section class="footer-section-website-type">
-        Website Types Website Types Website Types Website Types Website Types
+        <h2>Company</h2>
+        <a href="#">Customer Reviews</a>
+        <a href="#">Jobs</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Blog</a>
       </section>
       <section class="footer-section-tech-stack">
-        Technology Stack Technology Stack Technology Stack Technology Stack
-        Technology Stack
+        <h2>Support</h2>
+        <a href="#">Help Centre</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+        <a href="#">Resources</a>
       </section>
       <section class="footer-section-misc-links">
-        Privacy Policy Privacy Policy Privacy Policy Privacy Policy Privacy
-        Policy Privacy Policy
+        <h2>Follow</h2>
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Discord</a>
+        <a href="#">YouTube</a>
       </section>
       <section class="footer-section-copyright">
         <div>

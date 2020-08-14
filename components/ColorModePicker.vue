@@ -49,9 +49,9 @@ export default {
 <style scoped>
 .feather {
   cursor: pointer;
-  padding: 4px;
-  background-color: var(--color-background);
-  outline: 1px solid var(--color-background);
+  padding: 3px;
+  background-color: var(--color-background-lightest);
+  outline: 1px solid var(--color-background-light);
   margin: 0;
   border-radius: 5px;
   transition: all 0.1s ease;
@@ -65,7 +65,7 @@ export default {
 .feather.selected {
   color: var(--color-white);
   border-color: var(--color-text-nav);
-  background-color: var(--color-primary-theme);
+  background-color: var(--color-primary);
 }
 ul {
   list-style-type: none;
