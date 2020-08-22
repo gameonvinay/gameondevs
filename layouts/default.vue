@@ -5,6 +5,28 @@
         <div class="notification">#BlackLivesMatter</div>
         <ColorModePicker class="color-mode-picker" />
       </section>
+      <nav id="mynav" class="nav-container-desktop">
+        <h2 class="logo">
+          GAME ON DEVS
+        </h2>
+        <div>
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a class="animation-hover" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="animation-hover" href="#">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="animation-hover" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-btn">
+          <button>LOGIN</button>
+          <button class="btn-signup">SIGN UP</button>
+        </div>
+      </nav>
       <nav id="mynav" class="nav-container">
         <h2 class="logo">
           GAME ON DEVS
@@ -60,7 +82,7 @@
           Copyright &copy; 2020 Game On Developers.
         </div>
         <div>
-          All right reserved.
+          All rights reserved.
         </div>
       </section>
     </footer>
