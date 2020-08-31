@@ -79,7 +79,7 @@
       </section>
       <section class="footer-section-copyright">
         <div>
-          Copyright &copy; 2020 Game On Developers.
+          Copyright &copy; 2020 Game On Developers. &nbsp;
         </div>
         <div>
           All rights reserved.
