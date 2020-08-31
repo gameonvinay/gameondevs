@@ -13,7 +13,6 @@
             Lorem ipsum dolor sit amet consectetu r adipisicing elit. Tempore
             ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
             cupiditate molestiae praesentium aspernatur laudantium dicta sint
-            nihil maxime error, aperia m deleniti?
           </p>
         </div>
         <div class="card-stats">
@@ -42,7 +41,6 @@
             Lorem ipsum dolor sit amet consectetu r adipisicing elit. Tempore
             ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
             cupiditate molestiae praesentium aspernatur laudantium dicta sint
-            nihil maxime error, aperia m deleniti?
           </p>
         </div>
         <div class="card-stats">
@@ -71,7 +69,6 @@
             Lorem ipsum dolor sit amet consectetu r adipisicing elit. Tempore
             ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
             cupiditate molestiae praesentium aspernatur laudantium dicta sint
-            nihil maxime error, aperia m deleniti?
           </p>
         </div>
         <div class="card-stats">
@@ -100,7 +97,6 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
             ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
             cupiditate molestiae praesentium aspernatur laudantium dicta sint
-            nihil maxime error, aperiam deleniti?
           </p>
         </div>
         <div class="card-stats">

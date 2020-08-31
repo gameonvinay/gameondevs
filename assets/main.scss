@@ -360,11 +360,12 @@ body {
   outline: none;
   text-decoration: none;
   cursor: pointer;
-  height: 3rem;
+  height: 4rem;
   width: 25rem;
   font-family: 'Open sans', sans-serif;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 700;  
+  text-transform: uppercase;
   color: var(--color-white);
   border: none;
   outline: none;
@@ -434,8 +435,9 @@ body {
 .heading-feature-section {
   text-align: center;
   font-size: 3rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   margin: 5rem 2rem 6rem 2rem;
+  text-transform: uppercase;
 }
 
 .feature-grid {
@@ -445,6 +447,7 @@ body {
 }
 .feature-image {
   grid-area: image;
+  margin-top: 5rem;
   img {
     padding: 5px;
     height: 25rem;
@@ -455,7 +458,7 @@ body {
 }
 .feature-text {
   grid-area: text;
-  margin: 1rem 2rem 5rem 2rem;
+  margin: 3rem 2rem 5rem 2rem;
   text-align: left;
 
   h1 {
@@ -478,6 +481,7 @@ body {
   font-size: 3.2rem;
   letter-spacing: 1px;
   padding: 4rem 2rem 6rem 2rem;
+  text-transform: uppercase;
 }
 
 .cards-section {
@@ -486,18 +490,21 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  &:last-child {
+    padding-bottom: 10rem;
+  }
 }
 
 .card {
-  margin: 2rem 2rem;
+  margin: 2rem 1rem;
   display: grid;
   grid-template-columns: minmax(25rem, 36rem);
-  grid-template-rows: 24rem 26rem 8rem;
+  grid-template-rows: 21rem max-content 6rem;
   grid-template-areas: 'image' 'text' 'stats';
   border-radius: 18px;
-  background: var(--color-background-light);
+  background: var(--color-background-lightest);
   box-shadow: 3px 3px 20px var(--color-shadow-down);
-  text-align: center;
+  text-align: left;
   transition: 0.1s ease;
   cursor: pointer;
   &:hover {
@@ -520,18 +527,19 @@ body {
 }
 .card-text {
   grid-area: text;
-  margin: 25px;
+  padding: 0.1rem 2rem 1rem 2rem;
   .card-date {
-    color: var(--color-primary);
+    font-size: 1.4rem;
+    color: var(--color-secondary);
   }
   h2 {
     margin-top: 0px;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     color: var(--color-text-nav);
   }
   p {
     color: var(--color-text-grey);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
   }
 }
@@ -549,7 +557,7 @@ body {
     justify-content: center;
     flex-direction: column;
     color: var(--color-white);
-    padding: 1rem;
+    padding: 0.4rem;
   }
   .type {
     font-size: 1.2rem;
@@ -557,7 +565,7 @@ body {
     text-transform: uppercase;
   }
   .value {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 500;
   }
 }
@@ -567,11 +575,12 @@ body {
 /* SDLC Timeline */
 
 .timeline-container {
-  background-color: var(--color-background-light);
-  padding-top: 10rem;
+  background-color: var(--color-shadow-down);
+  padding-top: 3.5rem;
   h1 {
     text-align: center;
-    margin: 1rem;
+    margin: 0 1rem;
+    font-size: 3rem;
   }
 }
 
@@ -626,8 +635,8 @@ body {
       padding: 40px 30px 10px 30px;
 
       .date {
-        right: auto;
-        left: 0;
+        right: 0;
+        top: 0;
       }
 
       &::after {
@@ -676,13 +685,13 @@ body {
 }
 
 .timeline-img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background: var(--color-primary-dark);
   border-radius: 50%;
   position: absolute;
   left: 50%;
-  margin-top: 25px;
+  margin-top: 30px;
   margin-left: -15px;
 }
 
@@ -703,7 +712,7 @@ body {
     img {
       max-height: 30rem;
       width: 100%;
-      padding-top: 5rem;
+      padding-top: 4rem;
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -729,7 +738,7 @@ body {
   background: var(--color-secondary-dark);
   display: inline-block;
   color: var(--color-white);
-  padding: 10px;
+  padding: 5px 10px;
   position: absolute;
   right: 0;
   top: 0;
@@ -737,24 +746,24 @@ body {
 
 @media screen and (max-width: 768px) {
   .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 2%;
-    margin-left: 2%;
+    padding-right: 5px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   .timeline {
     &::before {
-      left: 30px;
+      left: 15px;
     }
 
     .timeline-img {
-      left: 30px;
+      left: 20px;
     }
 
     .timeline-content {
       max-width: 100%;
       width: auto;
-      margin-left: 50px;
+      margin-left: 30px;
     }
 
     .timeline-item {
@@ -815,7 +824,7 @@ body {
 
 .pricing-common {
   font-size: 1.8rem;
-  margin: 2rem;
+  margin: 1.5rem;
   padding: 0;
   border-radius: 5px;
   background: #ffffff;
@@ -841,10 +850,10 @@ body {
     margin-bottom: 2rem;
   }
   .bullet-points {
-    margin: 0 auto 2rem 5rem;
+    margin: 0 auto 2rem 3rem;
     span {
       display: inline-block;
-      margin: 0.5rem 1.5rem;
+      margin: 0.5rem 0.5rem;
     }
   }
   button {
@@ -941,7 +950,7 @@ body {
   background-color: #0c1014;
   font-size: 1.4rem;
   line-height: 2;
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 4rem 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr max-content;
@@ -1008,7 +1017,7 @@ body {
 }
 /* Mixins End here */
 
-/* MEDIA QUERIES TILL THE END */
+/* MEDIA QUERIES STARTS HERE & GOES TILL THE END */
 
 /* Mobile devices 320px*/
 
@@ -1017,17 +1026,200 @@ body {
  
 }
 
-/* Mobile devices 360px*/
+/* Mobile devices 360px to 400px*/
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) and (min-width: 321px) {
   @include mobilecommon;
+  .section-theme {
+    font-size: 13px;
+    height: 2.2rem;
+    .feather {
+      height: 22px;
+      width: 22px;
+      padding: 1px;
+    }
+  }
+
+  .nav-container {
+    height: 2.5rem;
+    padding: 1.5rem 5% 1rem 5%;
+  }
+
+  .logo {
+    font-size: 2.4rem;
+  }
+
+  .svg-menu {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .main-section-hero {
+    height: 75vh;
+    margin: 2rem 1rem 1rem 1rem;
+  }
+
+  .left-section-hero {
+    h1 {
+      max-width: 31rem;
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .herobox-button {
+    height: 5.2rem;
+    width: 32rem;
+    font-size: 2.4rem;
+  }
+    
+  .below-header-svg {
+    margin-top: 5rem;
+  }
+
+  .heading-feature-section {
+    font-size: 3.6rem;
+    margin: 5rem 2rem 10rem 2rem;
+  }
+
+  .card {
+    grid-template-rows: 24rem max-content 8rem;
+  }
+  .card-text {
+    padding: 2rem;
+    .card-date {
+      font-size: 1.4rem;
+    }
+    h2 {
+      margin-top: 0px;
+      font-size: 2.4rem;
+    }
+    p {
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+  }
 }
 
-/* iPads, Tablets */
-
-@media screen and (max-width: 767px) and (min-width: 480px) {
-  @include mobilecommon;
+.timeline-container {
+  h1 {
+    font-size: 3.4rem;
+  }
 }
+
+/* Mobile devices 401px to 767px*/
+
+@media screen and (max-width: 767px) and (min-width: 401px) {
+  @include mobilecommon;
+  .section-theme {
+    font-size: 14px;
+    height: 2.6rem;
+    .feather {
+      height: 26px;
+      width: 26px;
+    }
+  }
+
+  .nav-container {
+    height: 3.5rem;
+    padding: 2.5rem 5% 1rem 5%;
+  }
+
+  .logo {
+    font-size: 2.6rem;
+  }
+
+  .svg-menu {
+    height: 3.8rem;
+    width: 3.8rem;
+  }
+
+  .main-section-hero {
+    height: 85vh;
+    margin: 2rem 1rem 1rem 1rem;
+  }
+
+  .left-section-hero {
+    h1 {
+      max-width: 35rem;
+      font-size: 2.6rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .herobox-button {
+    height: 5.2rem;
+    width: 32rem;
+    font-size: 2.4rem;
+  }
+
+  .right-section-hero {
+    grid-area: one;
+    margin-top: 7rem;
+    align-self: center;
+    justify-self: center;
+    img {
+      padding: 5px;
+      max-height: 40rem;
+      min-width: 400px;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+  }  
+    
+  .below-header-svg {
+    margin-top: 0;
+  }
+
+  .heading-feature-section {
+    font-size: 4rem;
+    margin: 5rem 2rem 10rem 2rem;
+  }
+  
+  .heading-cards-section {
+    font-size: 4rem;
+  }
+  
+  
+  
+  .card {
+    grid-template-columns: minmax(25rem, 38rem);
+    grid-template-rows: 28rem max-content 8rem;
+  }
+  
+  .card-image {
+    img {
+      max-height: 26rem;
+    }
+  }
+  .card-text {
+    padding: 0.1rem 3rem 3rem 2.5rem;
+    h2 {
+      font-size: 2.6rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  .card-stats {
+    .type {
+      font-size: 1.3rem;
+    }
+    .value {
+      font-size: 2.4rem;
+      font-weight: 500;
+    }
+  }
+}
+
+.timeline-container {
+  h1 {
+    font-size: 3.8rem;
+  }
+}
+
 
 /* 769px — 1024px: Small screens, laptops */
 
