@@ -1,10 +1,10 @@
 <template>
   <div>
     <h1 class="heading-feature-section">
-      Latest web development standards
+      <span>Latest web development standards</span>
     </h1>
     <section class="feature-section">
-      <section class="feature-grid alt-color-2">
+      <section class="feature-grid alt-color-1">
         <div class="feature-image">
           <img src="@/assets/img/responsive-2.svg" alt="" />
         </div>
@@ -16,7 +16,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-1">
+      <section class="feature-grid alt-color-2">
         <div class="feature-image">
           <img src="@/assets/img/mobile-wireframe.svg" alt="" />
         </div>
@@ -41,7 +41,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-1">
+      <section class="feature-grid alt-color-4">
         <div class="feature-image">
           <img src="@/assets/img/works-on-every-browser.svg" alt="" />
         </div>
@@ -53,7 +53,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-4">
+      <section class="feature-grid alt-color-1">
         <div class="feature-image">
           <img src="@/assets/img/fast-loading-time.svg" alt="" />
         </div>
@@ -68,7 +68,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-1">
+      <section class="feature-grid alt-color-2">
         <div class="feature-image">
           <img src="@/assets/img/scalable.svg" alt="" />
         </div>
@@ -81,7 +81,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-2">
+      <section class="feature-grid alt-color-3">
         <div class="feature-image">
           <img src="@/assets/img/analytics-all-the-data.svg" alt="" />
         </div>
@@ -95,7 +95,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-1">
+      <section class="feature-grid alt-color-4">
         <div class="feature-image">
           <img src="@/assets/img/seo-search-engine.svg" alt="" />
         </div>
@@ -111,7 +111,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-2">
+      <section class="feature-grid alt-color-1">
         <div class="feature-image">
           <img src="@/assets/img/security.svg" alt="" />
         </div>
@@ -126,7 +126,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid  alt-color-1">
+      <section class="feature-grid  alt-color-2">
         <div class="feature-image">
           <img src="@/assets/img/dark-theme.svg" alt="" />
         </div>
@@ -140,7 +140,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid  alt-color-2">
+      <section class="feature-grid  alt-color-3">
         <div class="feature-image">
           <img src="@/assets/img/customized-pricing.svg" alt="" />
         </div>
@@ -154,7 +154,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-1">
+      <section class="feature-grid alt-color-4">
         <div class="feature-image">
           <img src="@/assets/img/our-team.svg" alt="" />
         </div>
