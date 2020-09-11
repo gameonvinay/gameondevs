@@ -6,18 +6,6 @@
     <section class="feature-section">
       <section class="feature-grid alt-color-1">
         <div class="feature-image">
-          <img src="@/assets/img/responsive-2.svg" alt="" />
-        </div>
-        <div class="feature-text">
-          <h1>Device Friendly Design</h1>
-          <p>
-            We create device friendly design that covers 97% of the devices used
-            worldwide.
-          </p>
-        </div>
-      </section>
-      <section class="feature-grid alt-color-2">
-        <div class="feature-image">
           <img src="@/assets/img/mobile-wireframe.svg" alt="" />
         </div>
         <div class="feature-text">
@@ -29,7 +17,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-3">
+      <section class="feature-grid alt-color-2">
         <div class="feature-image">
           <img src="@/assets/img/design-stand-out.svg" alt="" />
         </div>
@@ -38,6 +26,18 @@
           <p>
             Designing the user interface in such a way that everyone wants to
             talk and share about your cool and user-friendly website and app.
+          </p>
+        </div>
+      </section>
+      <section class="feature-grid alt-color-3">
+        <div class="feature-image">
+          <img src="@/assets/img/responsive-2.svg" alt="" />
+        </div>
+        <div class="feature-text">
+          <h1>Device Friendly Design</h1>
+          <p>
+            We create device friendly design that covers 97% of the desktop &
+            Mobile devices used worldwide.
           </p>
         </div>
       </section>
@@ -73,29 +73,17 @@
           <img src="@/assets/img/scalable.svg" alt="" />
         </div>
         <div class="feature-text">
-          <h1>Scalable</h1>
+          <h1>Scalable and Optimized</h1>
           <p>
-            Implementing algorithms and providing user-experience that is
-            acceptable even under heavy load or high increase in number of
-            (concurrent)users.
+            Implementing compression algorithms and providing user-experience
+            that is acceptable on high density screens while maintaining fast
+            loading times on mobile and wifi connections. Even under heavy load
+            or high increase in number of (concurrent)users servers bills don't
+            are kept are control.
           </p>
         </div>
       </section>
       <section class="feature-grid alt-color-3">
-        <div class="feature-image">
-          <img src="@/assets/img/analytics-all-the-data.svg" alt="" />
-        </div>
-        <div class="feature-text">
-          <h1>Analytics</h1>
-          <p
-            >Knowing your users location, devices they use, timing of peak
-            visit, language they prefer, loading time for them and so much more
-            can help you target, maintain and know your user better which helps
-            you grow your online/offline presence and connection with users.
-          </p>
-        </div>
-      </section>
-      <section class="feature-grid alt-color-4">
         <div class="feature-image">
           <img src="@/assets/img/seo-search-engine.svg" alt="" />
         </div>
@@ -111,7 +99,7 @@
           </p>
         </div>
       </section>
-      <section class="feature-grid alt-color-1">
+      <section class="feature-grid alt-color-4">
         <div class="feature-image">
           <img src="@/assets/img/security.svg" alt="" />
         </div>
@@ -122,7 +110,22 @@
             using hashing and authentication with JWT Tokens on both front-end
             and backend. XSS attacks are minimized while writing the markup
             carefully. SSR and Serverless architecture makes it hard to
-            penetrate SSR websites and apps.
+            penetrate. Although cyber-security is a very big concern and no-one
+            is fully protected at all times.
+          </p>
+        </div>
+      </section>
+      <section class="feature-grid alt-color-1">
+        <div class="feature-image">
+          <img src="@/assets/img/analytics-all-the-data.svg" alt="" />
+        </div>
+        <div class="feature-text">
+          <h1>Analytics</h1>
+          <p
+            >Knowing your users location, devices they use, timing of peak
+            visit, language they prefer, loading time for them and so much more
+            can help you target, maintain and know your user better which helps
+            you grow your online/offline presence and connection with users.
           </p>
         </div>
       </section>
@@ -135,8 +138,9 @@
           <p>
             Dark theme saves eyes and user's battery as most of them use
             portable devices like mobile phones, tablets and laptops. Dark theme
-            is a trend now and helps user to easily go throught the content of
-            your website without straining his eyes.
+            is a trend now and helps user to easily go through the content of
+            your website without straining his eyes and creating sleeping
+            issues.
           </p>
         </div>
       </section>
@@ -150,7 +154,8 @@
             We care about your hard earned money. There is no rule of one shoe
             fits all. Customize your package with the features you need in the
             minimum budget and get the upcoming discounts to make a feature rich
-            website or app.
+            website or app with latest responsive and eye catching design. (GST
+            bill facility is also available for Indian customers.)
           </p>
         </div>
       </section>

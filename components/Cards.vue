@@ -9,17 +9,18 @@
           </div>
           <div class="card-text">
             <span class="card-date">4 days ago</span>
-            <h2>fooduandi</h2>
+            <h2>Food</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetu r adipisicing elit. Tempore
-              ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
-              cupiditate molestiae praesentium aspernatur laudantium dicta sint
+              Lorem ipsum dolor sit amet consec tetur adipis icing elit. Tempore
+              ipsum quaerat corporis conseq uatur ut aliquam accu samus nobis
+              esse cupid itate mole stiae praes entium asper natur lauda ntium
+              dicta sint
             </p>
           </div>
           <div class="card-stats">
             <div class="stat">
-              <div class="value">4M</div>
-              <div class="type">read</div>
+              <div class="value">2000</div>
+              <div class="type">Likes</div>
             </div>
             <div class="stat">
               <div class="value">5123</div>
@@ -39,15 +40,16 @@
             <span class="card-date">4 days ago</span>
             <h2>Dance Academy</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetu r adipisicing elit. Tempore
-              ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
-              cupiditate molestiae praesentium aspernatur laudantium dicta sint
+              Lorem ipsum dolor sit amet consec tetur adipis icing elit. Tempore
+              ipsum quaerat corporis conseq uatur ut aliquam accu samus nobis
+              esse cupid itate mole stiae praes entium asper natur lauda ntium
+              dicta sint
             </p>
           </div>
           <div class="card-stats">
             <div class="stat">
-              <div class="value">4M</div>
-              <div class="type">read</div>
+              <div class="value">2000</div>
+              <div class="type">Likes</div>
             </div>
             <div class="stat">
               <div class="value">5123</div>
@@ -67,15 +69,16 @@
             <span class="card-date">4 days ago</span>
             <h2>Photography</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetu r adipisicing elit. Tempore
-              ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
-              cupiditate molestiae praesentium aspernatur laudantium dicta sint
+              Lorem ipsum dolor sit amet consec tetur adipis icing elit. Tempore
+              ipsum quaerat corporis conseq uatur ut aliquam accu samus nobis
+              esse cupid itate mole stiae praes entium asper natur lauda ntium
+              dicta sint
             </p>
           </div>
           <div class="card-stats">
             <div class="stat">
-              <div class="value">4M</div>
-              <div class="type">read</div>
+              <div class="value">2000</div>
+              <div class="type">Likes</div>
             </div>
             <div class="stat">
               <div class="value">5123</div>
@@ -95,15 +98,16 @@
             <span class="card-date">4 days ago</span>
             <h2>THE GYM</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              ipsum quaerat corporis consequatur ut aliquam accusamus nobis esse
-              cupiditate molestiae praesentium aspernatur laudantium dicta sint
+              Lorem ipsum dolor sit amet consec tetur adipis icing elit. Tempore
+              ipsum quaerat corporis conseq uatur ut aliquam accu samus nobis
+              esse cupid itate mole stiae praes entium asper natur lauda ntium
+              dicta sint
             </p>
           </div>
           <div class="card-stats">
             <div class="stat">
-              <div class="value">4M</div>
-              <div class="type">read</div>
+              <div class="value">2000</div>
+              <div class="type">Likes</div>
             </div>
             <div class="stat">
               <div class="value">5123</div>

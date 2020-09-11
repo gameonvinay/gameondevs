@@ -417,11 +417,9 @@ body {
 /* Features Section Starts here */
 
 .feature-section {
-  /* background-image: url(../assets/img/code-bg-features-com.jpg);
-  background-size: cover; */
   padding-top: 25rem;
   margin-top: -25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -429,7 +427,6 @@ body {
 }
 .heading-feature-section {
   font-size: 3rem;
-  padding: 8rem 18% 8rem 18%;
   text-transform: uppercase;
   color: var(--color-white);
   background-image: linear-gradient(
@@ -437,13 +434,15 @@ body {
     var(--color-primary-dark),
     var(--color-primary-light)
   );
+  text-align: center;
   transform: skewY(-6deg);
   span {
     display: block;
     transform: skewY(6deg);
   }
-  margin-top: 10rem;
-  margin-bottom: 15rem;
+  padding: 5rem 0;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .feature-grid {
@@ -525,8 +524,8 @@ body {
 .cards-container {
   background-color: var(--color-background);
   width: 100%;
-  padding-top: 25rem;
-  margin-top: -25rem;
+  padding-top: 10rem;
+  margin-top: -10rem;
   padding-bottom: 15rem;
 }
 
@@ -546,8 +545,9 @@ body {
     display: block;
     transform: skewY(6deg);
   }
-  margin-top: 10rem;
-  margin-bottom: 15rem;
+  margin-top: 5rem;
+  padding: 5rem 0;
+  margin-bottom: 5rem;
 }
 
 .cards-section {
@@ -556,9 +556,6 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  &:last-child {
-    padding-bottom: 10rem;
-  }
 }
 
 .card {
@@ -593,6 +590,7 @@ body {
 }
 .card-text {
   grid-area: text;
+  text-align: justify;
   padding: 0.1rem 2rem 1rem 2rem;
   .card-date {
     font-size: 1.4rem;
@@ -641,10 +639,9 @@ body {
 /* SDLC Timeline */
 
 .timeline-heading {
-  text-align: left;
+  text-align: center;
   font-size: 3rem;
   letter-spacing: 1px;
-  padding: 10rem 8% 10rem 12%;
   text-transform: uppercase;
   background-image: linear-gradient(
     to right,
@@ -656,14 +653,15 @@ body {
     display: block;
     transform: skewY(6deg);
   }
-  margin-top: -10rem;
+  margin-top: -5rem;
+  padding: 5rem 0;
+  margin-bottom: 0rem;
 }
 
 .timeline-container {
   background-color: var(--color-background-light);
-  padding-top: 35rem;
-  margin-top: -25rem;
-  padding-bottom: 15rem;
+  padding-top: 15rem;
+  margin-top: -15rem;
 }
 
 .timeline {
@@ -681,10 +679,8 @@ body {
   }
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 15%;
-  margin-left: 15%;
+  padding: 0 15px;
+  margin: 0 15%;
   a {
     text-decoration: none;
     background: var(--color-primary-dark);
@@ -827,59 +823,6 @@ body {
   left: 0;
 }
 
-@media screen and (max-width: 767px) {
-  .container {
-    padding-right: 5px;
-    padding-left: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .timeline {
-    &::before {
-      left: 15px;
-    }
-
-    .timeline-img {
-      left: 20px;
-    }
-
-    .timeline-content {
-      max-width: 100%;
-      width: auto;
-      margin-left: 30px;
-    }
-
-    .timeline-item {
-      &:nth-child(even) {
-        .timeline-content {
-          float: none;
-          .date {
-            left: unset;
-            top: 0;
-            right: 0;
-          }
-        }
-      }
-
-      &:nth-child(odd) {
-        .timeline-content {
-          &::after {
-            content: '';
-            position: absolute;
-            border-style: solid;
-            width: 0;
-            height: 0;
-            top: 30px;
-            left: -15px;
-            border-width: 10px 15px 10px 0;
-            border-color: transparent #ffffff transparent transparent;
-          }
-        }
-      }
-    }
-  }
-}
-
 /* SDLC Timeline ends */
 
 /* Pricing Section */
@@ -891,7 +834,6 @@ body {
   text-align: center;
   font-size: 3rem;
   letter-spacing: 1px;
-  padding: 10rem 18% 10rem 18%;
   text-transform: uppercase;
   background-image: linear-gradient(
     to right,
@@ -904,6 +846,8 @@ body {
     transform: skewY(6deg);
   }
   margin-top: -5rem;
+  padding: 5rem 0;
+  margin-bottom: 5rem;
 }
 
 .pricing-section {
@@ -913,9 +857,9 @@ body {
   justify-content: center;
   overflow: hidden;
   background-color: var(--color-background);
-  padding-top: 35rem;
-  margin-top: -25rem;
-  padding-bottom: 5rem;
+  padding-top: 10rem;
+  margin-top: -10rem;
+  padding-bottom: 10rem;
 }
 
 .pricing-grid {
@@ -1111,6 +1055,7 @@ body {
 /* Mixins Start here */
 
 @mixin mobilecommon {
+  @include timelinemobile;
   .nav-container-desktop {
     display: none;
   }
@@ -1135,7 +1080,6 @@ body {
     font-size: 2.6rem;
   }
 
-  
   .card {
     grid-template-columns: minmax(25rem, 38rem);
     grid-template-rows: 28rem 25rem 8rem;
@@ -1166,7 +1110,6 @@ body {
     }
   }
 }
-
 
 @mixin desktopcommon768-1366 {
   .section-theme {
@@ -1240,10 +1183,8 @@ body {
 
   .pricing-grid {
     grid-template-columns: minmax(30rem, 45rem) minmax(35rem, 50rem);
-    grid-template-rows: 15rem 80rem;
-    grid-template-areas:
-      'heading heading'
-      'basic expert';
+    grid-template-rows: 80rem;
+    grid-template-areas: 'basic expert';
   }
 
   .pricing-basic {
@@ -1269,6 +1210,86 @@ body {
     margin-left: -3rem;
     display: flex;
     justify-content: center;
+  }
+}
+
+@mixin sectionheadings {
+  .heading-feature-section,
+  .heading-cards-section,
+  .timeline-heading,
+  .pricing-heading-main {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -5rem;
+    padding: 5rem 18%;
+    margin-bottom: 5rem;
+  }
+}
+@mixin sectionheadingsbig {
+  .heading-feature-section,
+  .heading-cards-section,
+  .timeline-heading,
+  .pricing-heading-main {
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+    padding: 10rem 18%;
+  }
+}
+
+@mixin timelinemobile {
+  .container {
+    padding-right: 5px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .timeline {
+    &::before {
+      left: 15px;
+    }
+
+    .timeline-img {
+      left: 20px;
+    }
+
+    .timeline-content {
+      max-width: 100%;
+      width: auto;
+      margin-left: 30px;
+    }
+
+    .timeline-item {
+      &:nth-child(even) {
+        .timeline-content {
+          float: none;
+          .date {
+            left: unset;
+            top: 0;
+            right: 0;
+          }
+        }
+      }
+
+      &:nth-child(odd) {
+        .timeline-content {
+          &::after {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            width: 0;
+            height: 0;
+            top: 30px;
+            left: -15px;
+            border-width: 10px 15px 10px 0;
+            border-color: transparent #ffffff transparent transparent;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -1353,7 +1374,6 @@ body {
   .pricing-heading-main {
     font-size: 3.6rem;
   }
-  
 }
 
 /* Mobile devices 401px to 767px*/
@@ -1401,7 +1421,6 @@ body {
 
   .heading-feature-section {
     font-size: 3.6rem;
-    padding: 8rem 10% 8rem 18%;
   }
 
   .heading-cards-section {
@@ -1410,7 +1429,6 @@ body {
 
   .timeline-heading {
     font-size: 3.6rem;
-    padding: 10rem 10% 10rem 18%;
   }
 
   .pricing-heading-main {
@@ -1422,6 +1440,7 @@ body {
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   @include desktopcommon768-1366;
+  @include sectionheadings;
   .btn-signup {
     display: none;
   }
@@ -1461,40 +1480,51 @@ body {
       min-width: 30rem;
     }
   }
+  .heading-feature-section {
+    margin-top: 8rem;
+  }
+
+  .feature-bg-color {
+    background-color: var(--color-background-lightest);
+  }
 
   .feature-section {
-    grid-template-columns: minmax(25rem, 41rem) minmax(25rem, 41rem);
-    
+    grid-template-columns: 1fr 1fr;
   }
 
   .feature-grid {
-    grid-template-rows: 20rem;
-    grid-template-columns: minmax(25rem, 37rem);
+    margin: 5rem 1.5rem;
+    grid-template-rows: 30rem;
+    grid-template-columns: minmax(30rem, 60rem);
+    grid-template-areas:
+      'image'
+      'text';
+  }
+
+  .feature-image {
+    img {
+      height: 35rem;
+    }
+  }
+  .feature-text {
+    text-align: justify;
+    padding: 0 1rem;
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
   }
 
   .cards-section {
     grid-template-columns: minmax(25rem, 38rem) minmax(25rem, 38rem);
     grid-gap: 1rem;
   }
-
-  .heading-feature-section {
-    font-size: 4.8rem;
-    padding: 20rem 10% 20rem 28%;
-  }
-
   .heading-cards-section {
-    font-size: 4.8rem;
-    padding: 20rem 10% 20rem 18%;
-  }
-
-  .timeline-heading {
-    font-size: 4.8rem;
-    padding: 20rem 10% 20rem 28%;
+    padding: 8rem 18%;
   }
 
   .pricing-heading-main {
-    font-size: 4.8rem;
-    padding: 20rem 10% 20rem 18%;
+    padding: 8rem 18%;
   }
 }
 
@@ -1502,6 +1532,8 @@ body {
 
 @media screen and (max-width: 1366px) and (min-width: 1024px) {
   @include desktopcommon768-1366;
+  @include sectionheadings;
+  @include sectionheadingsbig;
 
   .logo {
     font-size: 2.6rem;
@@ -1514,6 +1546,7 @@ body {
       'two one';
     height: 60rem;
     margin-top: 2rem;
+    margin-bottom: 10rem;
   }
   .left-section-hero {
     margin: 10rem;
@@ -1543,15 +1576,112 @@ body {
     }
   }
 
-  .below-header-svg {
-    display: none;
+  /* Desktop Cards */
+  .feature-bg-color {
+    background-color: var(--color-background-lightest);
   }
-  .below-desktop-svg {
-    display: none;
-    height: auto;
-    width: 100%;
-    display: block;
-    fill: var(--color-primary);
+
+  .feature-section {
+    grid-template-columns: 55rem 55rem;
+  }
+
+  .feature-grid {
+    margin: 5rem;
+    grid-template-rows: 40rem;
+    grid-template-columns: minmax(25rem, 60rem);
+    grid-template-areas:
+      'image'
+      'text';
+  }
+
+  .feature-image {
+    img {
+      height: 40rem;
+    }
+  }
+  .feature-text {
+    padding: 0 2rem;
+    text-align: left;
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .cards-section {
+    grid-template-columns: 37rem 37rem;
+    grid-gap: 2rem;
+  }
+
+  .heading-cards-section {
+    padding: 8rem 18%;
+  }
+  .card {
+    grid-template-columns: 35rem;
+    grid-template-rows: 25rem 20rem 8rem;
+  }
+  .card-image {
+    img {
+      max-height: 25rem;
+    }
+  }
+  .card-text {
+    grid-area: text;
+    padding: 0.1rem 3rem 1rem 3rem;
+  }
+
+  .pricing-heading-main {
+    padding: 8rem 18%;
+  }
+  .container {
+    margin: 0 12%;
+  }
+}
+
+/* 1367px to large screens upto FHD*/
+
+@media screen and (min-width: 1367px) {
+  @include desktopcommon768-1366;
+  @include sectionheadingsbig;
+  .logo {
+    font-size: 2.6rem;
+  }
+
+  .main-section-hero {
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      'two one'
+      'two one';
+    height: 60rem;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+  }
+  .left-section-hero {
+    margin: 10rem;
+    align-self: center;
+    justify-self: center;
+    h1 {
+      max-width: 50rem;
+      font-size: 4rem;
+    }
+    button {
+      height: 8rem;
+      width: 50rem;
+      font-size: 4rem;
+    }
+  }
+  .right-section-hero {
+    grid-area: one;
+    align-self: center;
+    justify-self: center;
+    margin-left: -12rem;
+    img {
+      padding: 5px;
+      max-height: 70rem;
+      min-width: 30rem;
+      background-position: center;
+      background-size: cover;
+    }
   }
 
   /* Desktop Cards */
@@ -1559,89 +1689,72 @@ body {
     background-color: var(--color-background-lightest);
   }
 
-  .feature-section {
-    /* background-image: url(../assets/img/code-bg-features-com.jpg);
-    background-size: cover; */
-    padding-top: 25rem;
-    margin-top: -25rem;
-    margin-bottom: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .heading-feature-section {
-    font-size: 4.5rem;
-    padding: 15rem 18% 15rem 18%;
-    text-transform: uppercase;
-    color: var(--color-white);
-    background-image: linear-gradient(
-      to right,
-      var(--color-primary-dark),
-      var(--color-primary-light)
-    );
-    transform: skewY(-6deg);
-    span {
-      display: block;
-      transform: skewY(6deg);
-    }
-    margin-top: 20rem;
-    margin-bottom: 15rem;
-    /*clip-path: polygon(100% 100%, 100% 70%, 0 0, 100% 0); */
+  .feature-bg-color {
+    background-color: var(--color-background-lightest);
   }
 
+  .feature-section {
+    grid-template-columns: 55rem 55rem;
+  }
+
+  .heading-feature-section {
+    padding: 15rem 28%;
+  }
   .feature-grid {
-    position: relative;
-    display: grid;
-    background-color: var(--color-background-light);
     margin: 5rem;
     grid-template-rows: 40rem;
-    grid-template-columns: minmax(25rem, 65rem);
+    grid-template-columns: minmax(25rem, 60rem);
     grid-template-areas:
-      'image image'
-      'text text';
-    border-radius: 1rem;
-    -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
-      -9px -9px 16px rgba(255, 255, 255, 0.5),
-      inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
-    background: linear-gradient(
-      318.32deg,
-      rgba(163, 177, 198, 0.1) 0%,
-      rgba(163, 177, 198, 0.1) 55%,
-      rgba(163, 177, 198, 0.25) 100%
-    );
+      'image'
+      'text';
   }
 
   .feature-image {
-    position: absolute;
-    grid-area: image;
-    margin: 0 5% 0 5%;
     img {
       height: 40rem;
-      width: 100%;
-      background-position: center;
-      background-size: cover;
-      border-radius: 5px;
-      margin-top: -5rem;
-      background-color: var(--color-background);
-      box-shadow: 5px 5px 10px #babcc4, -5px -5px 10px #ffffff;
     }
   }
   .feature-text {
-    grid-area: text;
-    margin: 3rem 2rem 5rem 2rem;
+    padding: 0 2rem;
     text-align: left;
-
     h1 {
       font-size: 2.2rem;
       margin-bottom: 1rem;
     }
   }
-}
 
-/* 1281px and 1980px large screens upto FHD*/
+  .cards-section {
+    grid-template-columns: 37rem 37rem;
+    grid-gap: 2rem;
+  }
 
-@media screen and (max-width: 1980px) and (min-width: 1281px) {
+  .heading-cards-section {
+    padding: 8rem 18%;
+  }
+  .card {
+    grid-template-columns: 35rem;
+    grid-template-rows: 25rem 20rem 8rem;
+  }
+  .card-image {
+    img {
+      max-height: 25rem;
+    }
+  }
+  .card-text {
+    grid-area: text;
+    padding: 0.1rem 3rem 1rem 3rem;
+  }
+
+  .timeline-heading {
+    padding: 12rem 28%;
+  }
+
+  .container {
+    margin: 0 20%;
+  }
+  .timeline-content {
+    width: 35rem;
+  }
 }
 
 /* 1981px and 2880px 2k and WQHD screens */
